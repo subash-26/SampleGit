@@ -2,9 +2,13 @@ package org.login;
 
 public class Login {
 	
-	public void A(){
+	public static void B(){
 	
-		System.out.println("hi hello");
+		System.out.println("hi SELENIUM");
 	}
-
+	
+	public static void main(String[] args)
+	{
+		B();
+	}
 }
